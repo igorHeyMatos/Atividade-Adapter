@@ -72,3 +72,10 @@ Nesta classe, são demonstradas todas as funcionalidades:
 - **Agendamento de publicação no Instagram**  
 - **Deleção de uma publicação do Twitter**  
 - **Consulta de estatísticas de engajamento**
+
+---
+
+#### **6. ⚠️ Tratamento de Exceções – `SocialMediaException`**
+
+Para garantir robustez e padronização no tratamento de erros entre diferentes APIs, o sistema utiliza a exceção personalizada **SocialMediaException.**
+Ela centraliza falhas como erros de autenticação, limites de requisição e respostas inválidas, mantendo o código limpo e previsível.
